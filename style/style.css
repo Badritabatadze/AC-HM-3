@@ -1,46 +1,207 @@
-body{
-    background-color: #F1F1F1;
+body {
+  background-color: #f1f1f1;
 }
 
+header li {
+  color: #000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 
-
-header li{
-color: #000;
-font-family: Roboto;
-font-size: 11px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-display: inline-block;
-position: sticky;
+  position: sticky;
 }
-.home{
-    margin: 21px 0 0 137px;
-}
-
-.discovery{
-    margin: 21px 0 0 35px;
-}
-.photos{
-    margin: 21px 0 0 35px;
-}
-.contacts{
-    margin: 21px 0 0 35px;
+.home {
+  margin: 21px 0 0 137px;
+  display: inline-block;
 }
 
-.trands{
-    color: #000;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-width: 120px;
-height: 28px;
-margin-top: 42px;
-margin-left: 137px;
+.discovery {
+  margin: 21px 0 0 35px;
+  display: inline-block;
+}
+.photos {
+  margin: 21px 0 0 35px;
+  display: inline-block;
+}
+.contacts {
+  margin: 21px 0 0 35px;
+  display: inline-block;
 }
 
-.photo-box{
-    
+.profile-photo {
+  width: 32px;
+  height: 32px;
+  margin-top: 11px;
+  margin-left: 29px;
+  fill: url(<path-to-image>) lightgray -22.611px -0.282px / 192.965% 100%
+    no-repeat;
+}
+.trands {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 120px;
+  height: 28px;
+  margin-top: 42px;
+  margin-left: 137px;
+}
+
+/*first card*/
+
+.inline {
+  display: inline-block;
+}
+
+.card {
+  position: relative;
+  width: 362px;
+  margin-left: 138px;
+  margin-top: 27px;
+}
+
+.photo-box {
+  width: 100%;
+  height: 186px;
+  border-radius: 5px 5px 0 0;
+  display: block;
+}
+
+.text {
+  position: absolute;
+  top: 32px;
+  left: 41px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-2 {
+  position: relative;
+  width: 362px;
+  margin-left: 138px;
+}
+
+.photo-box-2 {
+  position: relative;
+  width: 100%;
+  height: 171px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.text-2 {
+  position: absolute;
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  top: 68px;
+  left: 37px;
+}
+
+.img-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 115px;
+  left: 40px;
+  display: inline-block;
+}
+
+.mins {
+  position: absolute;
+  display: inline-block;
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  top: 118px;
+  left: 67px;
+}
+
+/*second card*/
+
+.inline-2 {
+  display: inline-block;
+}
+.card-3 {
+  position: relative;
+  width: 362px;
+  margin-left: 138px;
+  margin-top: 27px;
+}
+
+.photo-box-3 {
+  width: 100%;
+  height: 186px;
+  border-radius: 5px 5px 0 0;
+  display: block;
+}
+
+.text-3 {
+  position: absolute;
+  top: 32px;
+  left: 41px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-4 {
+  position: relative;
+  width: 362px;
+  margin-left: 138px;
+}
+
+.photo-box-4 {
+  position: relative;
+  width: 100%;
+  height: 171px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.text-4 {
+  position: absolute;
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  top: 68px;
+  left: 37px;
+}
+
+.img-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 115px;
+  left: 40px;
+  display: inline-block;
+}
+
+.mins {
+  position: absolute;
+  display: inline-block;
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  top: 118px;
+  left: 67px;
 }
