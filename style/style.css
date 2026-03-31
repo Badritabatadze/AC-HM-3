@@ -273,3 +273,72 @@ header li {
   top: 118px;
   left: 67px;
 }
+
+/*happening now*/
+
+.happening {
+  position: relative;
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  top: 57px;
+  left: 140px;
+}
+
+.happening-container {
+  display: flex;
+  gap: 20px;
+  margin-left: 138px;
+  margin-top: 30px;
+}
+
+/* LEFT BIG IMAGE */
+.pic-now {
+  position: relative;
+}
+
+.photo-7 {
+  width: 758px;
+  height: 430px;
+  border-radius: 5px;
+}
+
+/* TEXT ON IMAGE */
+.text-7 {
+  position: absolute;
+ top: 203px;
+  left: 278px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pic-now-2 {
+  position: relative;
+}
+
+.photo-8 {
+  position: relative;
+  width: 362px;
+  height: 212px;
+  border-radius: 5px;
+  top: 0px;
+  left: 45px;
+}
+
+.pic-now-3 {
+  position: relative;
+}
+
+.photo-9 {
+  position: relative;
+  width: 362px;
+  height: 212px;
+  border-radius: 5px;
+  top: 98px;
+  left: 45px;
+}
