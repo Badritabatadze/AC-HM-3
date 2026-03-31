@@ -288,6 +288,8 @@ header li {
   left: 140px;
 }
 
+/*Pics*/
+
 .happening-container {
   display: flex;
   gap: 20px;
@@ -309,7 +311,7 @@ header li {
 /* TEXT ON IMAGE */
 .text-7 {
   position: absolute;
- top: 203px;
+  top: 203px;
   left: 278px;
   color: #fff;
   font-family: Roboto;
@@ -321,7 +323,7 @@ header li {
   position: relative;
 }
 
-.photo-8 {
+.photo-9 {
   position: relative;
   width: 362px;
   height: 212px;
@@ -334,7 +336,7 @@ header li {
   position: relative;
 }
 
-.photo-9 {
+.photo-10 {
   position: relative;
   width: 362px;
   height: 212px;
@@ -342,3 +344,38 @@ header li {
   top: 98px;
   left: 45px;
 }
+
+
+.happening-container-2 {
+  display: flex;
+  gap: 20px;
+  margin-left: 138px;
+  margin-top: 30px;
+}
+
+/* LEFT BIG IMAGE */
+.pic-now-4 {
+  position: relative;
+}
+
+.photo-8 {
+  width: 758px;
+  height: 430px;
+  border-radius: 5px;
+}
+
+
+
+.pic-now-5 {
+  position: relative;
+}
+
+.photo-11 {
+  position: relative;
+  width: 362px;
+  height: 212px;
+  border-radius: 5px;
+  top: 195px;
+  left: 45px;
+}
+
